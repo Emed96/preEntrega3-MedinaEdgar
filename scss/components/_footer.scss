@@ -1,0 +1,63 @@
+/* Estilos footer */
+
+footer{
+    width: 100%;
+    background-color: map-get($paleta_colores, azul5);
+    color: whitesmoke;
+    padding: 10px 45px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.iconos ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px;
+    
+    .icon{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+
+        span{
+            gap: 20px;
+        }
+
+        img{
+            width: 50px;
+            justify-self: center;
+        }
+    }
+}
+
+.aviso h6{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+    text-align: center;
+
+    a{
+        color: whitesmoke;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px){
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iconos ul{
+        flex-direction: row;
+        gap: 15px;
+
+        .icon span{
+            display: block;
+            font-size: 20px;
+        }
+    }
+}

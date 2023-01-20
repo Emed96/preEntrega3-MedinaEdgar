@@ -1,0 +1,37 @@
+/* Estilos agendarCita */ 
+
+@media (min-width: 768px){
+    .secCita{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cita{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: min-content;
+        padding: 20px 45px;
+        margin: 20px 45px;
+
+        div{
+            padding: 2px 0;
+            margin: 5px;
+        }
+
+        .fechaNacimiento{
+            display: flex;
+        }
+
+        .sexo{
+            display: flex;
+            align-items: center;
+        }
+    }
+    
+    .btn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+}

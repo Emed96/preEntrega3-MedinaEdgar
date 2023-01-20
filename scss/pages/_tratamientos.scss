@@ -1,0 +1,53 @@
+/* Estilos tratamientos */
+
+.tratamientos{
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    div{
+        min-height: 33vh;
+        text-align: center;
+        padding: 2% 1%;
+    }
+
+    h3{
+        font-size: 16px;
+        padding: 1% 10px
+    }
+
+    p{
+        font-size: 12px;
+        padding: 2% 2%;
+    }
+}
+
+.trat1{
+    background-color: map-get($paleta_colores, azul3);
+    color: #f5f5f5;
+}
+
+.trat2{
+    background-color: map-get($paleta_colores, azul1);
+    color: map-get($paleta_colores, azul3);
+}
+.trat3{
+    background-color: map-get($paleta_colores, azul2);
+    color: black;
+}
+
+@media (min-width: 768px){
+    .tratamientos{
+        padding: 20px 45px;
+        grid-template-columns: repeat(3, 1fr);
+
+        h3{
+            font-size: 20px;
+        }
+
+        p{
+            font-size: 14px;
+        }
+    }
+}
