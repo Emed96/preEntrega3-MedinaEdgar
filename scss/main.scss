@@ -1,13 +1,13 @@
-@import "utils/variables";
+@import "./utils/variables";
 
-@import "base/base";
+@import "./base/base";
 
-@import "components/header";
-@import "components/footer";
+@import "./components/header";
+@import "./components/footer";
 
-@import "pages/index";
-@import "pages/nosotros";
-@import "pages/tratamientos";
-@import "pages/especialidades";
-@import "pages/contacto";
-@import "pages/agendarCita";
+@import "./pages/index";
+@import "./pages/nosotros";
+@import "./pages/tratamientos";
+@import "./pages/especialidades";
+@import "./pages/contacto";
+@import "./pages/agendarCita";

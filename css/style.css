@@ -86,6 +86,9 @@ header {
     top: 60px;
     right: 45px;
   }
+  .bAgendarCita:hover {
+    color: #03045e;
+  }
   .titulo {
     padding: 20px 45px;
   }

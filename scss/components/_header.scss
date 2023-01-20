@@ -75,6 +75,10 @@ header{
         position: fixed;
         top: 60px;
         right: 45px;
+
+        &:hover{
+            color: map-get($paleta_colores, azul5);
+        }
     }
 
     .titulo{
