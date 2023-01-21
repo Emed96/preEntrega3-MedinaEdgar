@@ -197,18 +197,18 @@ footer {
 
 .imagenPortada {
   display: block;
-  width: 100%;
+  width: 100vw;
   height: 25vh;
   overflow: hidden;
 }
 .imagenPortada .imgPortada {
-  width: 100%;
+  width: 100vw;
   display: flex;
   animation: slide 10s infinite linear;
   object-fit: cover;
 }
 .imagenPortada .imgPortada img {
-  width: 100%;
+  width: 100vw;
   height: 100%;
 }
 
