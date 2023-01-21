@@ -39,18 +39,18 @@
 
 .imagenPortada{
     display: block;
-    width: 100vw;
+    width: 100%;
     height: 25vh;
     overflow: hidden;
 
     .imgPortada{
-        width: 100vw;
+        width: 100%;
         display: flex;
         animation: slide 10s infinite linear;
         object-fit: cover;
     
         img{
-            width: 100vw;
+            width: 100%;
             height: 100%;
         }
     }
