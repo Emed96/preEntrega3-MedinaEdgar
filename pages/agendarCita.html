@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PreEntrega 2</title>
+    <title>PreEntrega 3/Agendar Cita</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -32,6 +32,10 @@
     </header>
 
     <main>
+        <section class="tituloPagina">
+            AGENDAR CITA
+        </section>
+
         <section class="secCita">
             <form class="cita" action="">
                 <div class="nombre">
@@ -43,11 +47,14 @@
                     <input type="text" id="iApellidoCita" name="apellido" placeholder="Apellido" required size="33%">
                 </div>
                 <div class="sexo">
-                    <label for="iSexo">Sexo: </label>
+                    <label>Sexo: </label>
                     <div class="sRadio">
-                    <input type="radio" id="iSexo" name="sexo" value="h" required> Hombre
-                    <input type="radio" id="iSexo" name="sexo" value="m"> Mujer
-                    <input type="radio" id="iSexo" name="sexo" value="otro"> Otro
+                    <input type="radio" id="iHombre" name="sexo" value="h" required> 
+                        <label for="iHombre">Hombre</label>
+                    <input type="radio" id="iMujer" name="sexo" value="m">
+                        <label for="iMujer">Mujer</label> 
+                    <input type="radio" id="iOtro" name="sexo" value="otro">
+                        <label for="iOtro">Otro</label>
                     </div>
                 </div>
                 <div class="fechaNacimiento">
