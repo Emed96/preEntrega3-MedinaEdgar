@@ -11,6 +11,19 @@
   display: none;
 }
 
+.tituloPagina {
+  background-color: #caf0f8;
+  color: #023e8a;
+  padding: 10px 45px;
+  text-align: center;
+  font-size: 19px;
+}
+
+@media (min-width: 768px) {
+  .tituloPagina {
+    font-size: 23px;
+  }
+}
 /* Estilo header */
 .bAgendarCita {
   display: none;
@@ -34,10 +47,6 @@
   padding-left: 5px;
   color: #023e8a;
   transition: 250ms;
-}
-
-h1 {
-  color: #03045e;
 }
 
 .bMenu img {
@@ -81,7 +90,6 @@ header {
     font-size: auto;
     border-radius: 5px;
     color: whitesmoke;
-    font-size: small;
     position: fixed;
     top: 60px;
     right: 45px;
@@ -455,6 +463,16 @@ footer {
   padding: 20px;
   gap: 15px;
 }
+.secContacto .bCita {
+  background-color: #90e0ff;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+.secContacto .bCita:hover {
+  color: #03045e;
+}
 
 .mapa {
   display: flex;
@@ -490,6 +508,9 @@ footer {
   .secContacto ul {
     height: 100%;
   }
+  .secContacto .bCita {
+    display: none;
+  }
   .contacto .asunto {
     width: 100%;
   }
@@ -498,35 +519,35 @@ footer {
   }
 }
 /* Estilos agendarCita */
-@media (min-width: 768px) {
-  .secCita {
-    display: flex;
-    justify-content: center;
-  }
-  .cita {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: min-content;
-    padding: 20px 45px;
-    margin: 20px 45px;
-  }
-  .cita div {
-    padding: 2px 0;
-    margin: 5px;
-  }
-  .cita .fechaNacimiento {
-    display: flex;
-  }
-  .cita .sexo {
-    display: flex;
-    align-items: center;
-  }
-  .btn {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-  }
+.secCita {
+  display: flex;
+  justify-content: center;
+}
+
+.cita {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: min-content;
+  padding: 20px 45px;
+  margin: 20px 45px;
+}
+.cita div {
+  padding: 2px 0;
+  margin: 5px;
+}
+.cita .fechaNacimiento {
+  display: flex;
+}
+.cita .sexo {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

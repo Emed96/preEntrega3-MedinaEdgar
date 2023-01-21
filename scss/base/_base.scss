@@ -11,3 +11,17 @@
 #check{
     display: none;
 }
+
+.tituloPagina{
+    background-color: map-get($paleta_colores, azul1);
+    color: map-get($paleta_colores, azul4);
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 19px;
+}
+
+@media (min-width: 768px){
+    .tituloPagina{
+        font-size: 23px;
+    }
+}

@@ -17,6 +17,18 @@
         padding: 20px;
         gap: 15px;
     }
+
+    .bCita{
+        background-color: map-get($paleta_colores, azul2);
+        padding: 10px 20px;
+        text-align: center;
+        border-radius: 10px;
+        color: whitesmoke;
+        
+        &:hover{
+            color: map-get($paleta_colores, azul5);
+        }
+    }
 }
 
 .mapa{
@@ -53,6 +65,10 @@
 
         ul{
             height: 100%;
+        }
+
+        .bCita{
+            display: none;
         }
     }
     
