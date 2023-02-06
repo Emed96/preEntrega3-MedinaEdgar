@@ -7,6 +7,10 @@
   list-style: none;
 }
 
+img {
+  object-fit: cover;
+}
+
 #check {
   display: none;
 }
@@ -177,7 +181,7 @@ footer {
   flex-direction: column;
   text-align: center;
   justify-content: space-around;
-  padding: 50px 45px;
+  padding: 1% 1.8%;
   gap: 45px;
 }
 .publicaciones article {
@@ -212,7 +216,7 @@ footer {
 .imagenPortada .imgPortada {
   width: 100%;
   display: flex;
-  animation: slide 10s infinite linear;
+  animation: slide 25s infinite linear;
   object-fit: contain;
 }
 .imagenPortada .imgPortada img {
@@ -258,7 +262,7 @@ footer {
 }
 @media (min-width: 768px) {
   .imagenPortada {
-    height: 85vh;
+    height: 55vh;
   }
   .publicaciones {
     flex-direction: row;
